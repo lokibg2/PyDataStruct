@@ -2,6 +2,7 @@ from LokiStack import Stack
 import sys
 # Min Stack - O(1)
 
+
 class MinStack(Stack):
     def __init__(self):
         super(MinStack, self).__init__()
