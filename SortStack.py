@@ -18,7 +18,6 @@ class SortStack:
             while not self.tempStack.isEmpty() and self.tempStack.peek() > temp:
                 self.mainStack.push(self.tempStack.pop())
             self.tempStack.push(temp)
-            print(self.tempStack.items)
 
         while not self.tempStack.isEmpty():
             self.mainStack.push(self.tempStack.pop())
